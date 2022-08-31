@@ -26,6 +26,12 @@
   height: 64px;
 }
 
+.cell img {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
 .black {
   background-color: chocolate;
 }
