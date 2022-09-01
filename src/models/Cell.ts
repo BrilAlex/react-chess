@@ -88,6 +88,9 @@ export class Cell {
 
   moveFigure(target: Cell) {
     if (this.figure?.canMove(target)) {
+      if (target.figure) {
+        this.board.addLostFigure(target.figure);
+      }
       this.figure?.moveFigure(target);
       target.setFigure(this.figure);
       this.figure = null;
