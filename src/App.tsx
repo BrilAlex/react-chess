@@ -39,8 +39,8 @@ function App() {
         swapPlayer={swapPlayer}
       />
       <div>
-        <LostFigures title={"Black figures"} figures={board.lostBlackFigures}/>
-        <LostFigures title={"White figures"} figures={board.lostWhiteFigures}/>
+        <LostFigures title={"Lost black figures"} figures={board.lostBlackFigures}/>
+        <LostFigures title={"Lost white figures"} figures={board.lostWhiteFigures}/>
       </div>
     </div>
   );
